@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/Atharva_0506" target="blank"><img src="https://img.shields.io/twitter/follow/Atharva_0506?logo=twitter&style=for-the-badge" alt="Atharva_0506" /></a> </p>
 
-- 🌱 I’m currently learning **Andriod Programming**
+- 🌱 I’m currently learning **Rust**
 
 - 👨‍💻 All of my projects are available at [Atharva Naik](https://github.com/Atharva0506)
 
