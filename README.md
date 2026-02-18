@@ -1,35 +1,30 @@
-# 👋 Hi, I'm Atharva Naik
+# 👋 Atharva Naik
 
-🚀 Full Stack Developer | MERN • Next.js • FastAPI • AI  
+🚀 Full Stack Developer — MERN • Next.js • FastAPI • AI  
 💡 Building scalable web apps, AI tools, and cloud solutions  
 
 ---
 
-## 🧠 About Me
-- 💻 Passionate about building production-ready apps  
-- 🤖 Exploring AI, LangChain, and backend systems  
-- ☁️ Interested in cloud & system design  
-- 🌱 Always learning and shipping projects  
+## 🧠 About
+💻 Production-ready apps • 🤖 AI & backend systems • ☁️ Cloud & system design • 🌱 Continuous learner  
 
 ---
 
-## ⚡ Tech Stack
+## ⚡ Tech
 **Languages:** JavaScript, TypeScript, Python  
 **Frontend:** React, Next.js, Tailwind  
 **Backend:** Node.js, Express, FastAPI  
-**Databases:** MongoDB, PostgreSQL, MySQL, DynamoDB  
-**DevOps & Tools:** AWS, Docker, Nginx, Jenkins, GitHub Actions, Kubernetes, Prisma  
+**DB:** MongoDB, PostgreSQL, MySQL, DynamoDB  
+**DevOps:** AWS, Docker, Kubernetes, Nginx, Jenkins, GitHub Actions, Prisma  
 
 ---
 
-
-## 🌐 Connect With Me
+## 🌐 Connect
 💼 LinkedIn: https://linkedin.com/in/Atharva0506  
 🌐 Portfolio: https://atharva-naik-portfolio.vercel.app/  
-🐦 X (Twitter): https://x.com/atharva_0506  
+🐦 X: https://x.com/atharva_0506  
 📧 Email: atharvan.coder@gmail.com  
-
 
 ---
 
-⭐️ *Always open to collaboration and interesting projects*
+⭐ Open to collaborations & opportunities
