@@ -21,7 +21,7 @@
 
 ## 🌐 Connect
 💼 LinkedIn: https://linkedin.com/in/Atharva0506  
-🌐 Portfolio: https://atharva-naik-portfolio.vercel.app/  
+🌐 Portfolio: https://atharvanaik.me 
 🐦 X: https://x.com/atharva_0506  
 📧 Email: atharvan.coder@gmail.com  
 
