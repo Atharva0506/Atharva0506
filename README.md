@@ -1,10 +1,7 @@
 # 👋 Atharva Naik
 
 🚀 Full Stack Developer — MERN • Next.js • FastAPI • AI  
-💡 Building scalable web apps, AI tools, and cloud solutions  
----
-## 🧠 About
-💻 Production-ready apps • 🤖 AI & backend systems • ☁️ Cloud & system design • 🌱 Continuous learner  
+💡 Building scalable web apps, AI tools, and cloud solutions
 ---
 ## ⚡ Tech
 **Languages:** JavaScript, TypeScript, Python  
