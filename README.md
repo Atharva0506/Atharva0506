@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Atharva Naik
 
-**Full Stack Developer** — MERN · Next.js · FastAPI · AI  
+**Full Stack Developer** — MERN · Next.js · FastAPI · AI · Blockchain  
 Building scalable web apps, AI tools & cloud solutions.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-atharvanaik.me-blue?style=flat-square)](https://atharvanaik.me)
@@ -17,7 +17,7 @@ Building scalable web apps, AI tools & cloud solutions.
 |---|---|
 | **Languages** | JavaScript, TypeScript, Python |
 | **Frontend** | React, Next.js, Tailwind CSS |
-| **Backend** | Node.js, Express, FastAPI |
+| **Backend** | Node.js, Express, FastAPI,Go |
 | **Databases** | MongoDB, PostgreSQL, MySQL, DynamoDB |
 | **DevOps** | AWS, Docker, Kubernetes, Nginx, Jenkins, GitHub Actions |
 | **ORM** | Prisma |
