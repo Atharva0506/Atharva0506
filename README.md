@@ -29,7 +29,7 @@ Building scalable web apps, AI tools & cloud solutions.
 
 
 <details>
- <summary>📊 Stats</summary>
+ <summary>📊 My Stats</summary>
  
 [![GitHub Streak](https://streak-stats.demolab.com?user=Atharva0506&theme=vision-friendly-dark&card_width=494)](https://git.io/streak-stats)
 
