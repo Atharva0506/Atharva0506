@@ -10,14 +10,6 @@ Building scalable web apps, AI tools & cloud solutions.
 
 ---
 
-- 🔭 Currently working on **DevOps pipelines and open-source contributions**
-- 🌱 Learning **Deep Learning · Cloud & DevOps (AWS, K8s) · System Design · Blockchain/Web3**
-- 👯 Open to collaborating on **open-source projects and freelance work**
-- 💬 Ask me about **React, Next.js, Node.js, FastAPI, AWS, Solidity, LangChain**
-- ⚡ Fun fact: **I debug faster with lo-fi music on**
-
----
-
 ### 🛠️ Tech Stack
 
 | Category | Tools |
