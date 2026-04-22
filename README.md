@@ -20,7 +20,7 @@ Building scalable web apps, AI tools & cloud solutions.
 | **Databases** | ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![Prisma](https://skillicons.dev/icons?i=prisma) |
 | **DevOps & Cloud** | ![AWS](https://skillicons.dev/icons?i=aws) ![Azure](https://skillicons.dev/icons?i=azure) ![GCP](https://skillicons.dev/icons?i=gcp) ![Docker](https://skillicons.dev/icons?i=docker) ![Kubernetes](https://skillicons.dev/icons?i=kubernetes) ![Jenkins](https://skillicons.dev/icons?i=jenkins) ![GitHub Actions](https://skillicons.dev/icons?i=githubactions) ![Linux](https://skillicons.dev/icons?i=linux) |
 | **AI / ML** | ![PyTorch](https://skillicons.dev/icons?i=pytorch) ![TensorFlow](https://skillicons.dev/icons?i=tensorflow) ![OpenCV](https://skillicons.dev/icons?i=opencv) ![scikit-learn](https://skillicons.dev/icons?i=scikitlearn) |
-| **Blockchain** | <img src="https://us1.discourse-cdn.com/flex001/uploads/solidity1/original/2X/8/84a766520e9b8f7466fa71b7582e781ee3f0c3e1.png" width="40" height="40"/> <img src="https://cdn.simpleicons.org/ethereum" width="40" height="40"/> |
+| **Blockchain** | ![Solidity](https://skillicons.dev/icons?i=solidity) <img src="https://cdn.jsdelivr.net/npm/cryptocurrency-icons@0.18.1/svg/color/eth.svg" width="48" height="48"/> |
 | **Tools** | ![Git](https://skillicons.dev/icons?i=git) ![Figma](https://skillicons.dev/icons?i=figma) ![Firebase](https://skillicons.dev/icons?i=firebase) ![Grafana](https://skillicons.dev/icons?i=grafana) |
 
 ---
