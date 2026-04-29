@@ -77,6 +77,13 @@ alias ports='netstat -tulanp'
 alias reload='source ~/.bashrc'
 alias bashrc='nano ~/.bashrc'
 
+# ─── NETWORK / SECURITY ───────────────────────
+alias listening='ss -tlnp'
+alias myips='hostname -I'
+alias curl='curl -s'
+alias headers='curl -I'
+
+
 # ─── PYTHON / FASTAPI ─────────────────────────
 alias venv='python3 -m venv .venv'
 alias va='source .venv/bin/activate'
