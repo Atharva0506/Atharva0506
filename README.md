@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Atharva Naik
 
-**Full Stack Developer** — MERN · Next.js · FastAPI · AI · Blockchain  
+**Full Stack Developer** — @GSoC 2026 at AOSSIE MERN · Next.js · FastAPI · AI · Blockchain  
 Building scalable web apps, AI tools & cloud solutions.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-atharvanaik.me-blue?style=flat-square)](https://atharvanaik.me)
