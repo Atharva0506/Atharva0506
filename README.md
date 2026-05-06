@@ -1,7 +1,8 @@
 # 👋 Hi, I'm Atharva Naik
 
-**Full Stack Developer** — @GSoC 2026 at AOSSIE MERN · Next.js · FastAPI · AI · Blockchain  
-Building scalable web apps, AI tools & cloud solutions.
+**Full Stack Developer** · 🏆 **Google Summer of Code 2026** Contributor at [AOSSIE](https://aossie.org)  
+MERN · Next.js · FastAPI · AI · Blockchain — Building scalable web apps, AI tools & cloud solutions.
+
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-atharvanaik.me-blue?style=flat-square)](https://atharvanaik.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Atharva0506-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/Atharva0506)
