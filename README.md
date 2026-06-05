@@ -34,7 +34,7 @@ MERN · Next.js · FastAPI · AI · Blockchain — Building scalable web apps, A
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Atharva0506&theme=monokai" height="160"/>
 </p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Atharva0506&theme=vision-friendly-dark&card_width=494)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=Atharva0506&theme=vision-friendly-dark&card_width=494)](https://git.io/streak-stats)
 
 ---
 
