@@ -1,0 +1,184 @@
+\documentclass[a4paper,10pt]{article}
+
+%---------------- PACKAGES ----------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage[scale=0.91, top=.40in, bottom=.40in]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[unicode, hidelinks]{hyperref}
+\usepackage{needspace}
+\usepackage{textcomp}
+\newcommand{\faStar}{$\star$}
+
+%---------------- LINE SPACING ----------------
+\linespread{0.93}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+%---------------- SECTION STYLE ----------------
+\titleformat{\section}{\normalsize\bfseries\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{6pt}{4pt}
+
+%---------------- ITEMIZE SPACING ----------------
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.4em}
+
+%---------------- COLUMN TYPE ----------------
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+%---------------- NO WIDOW / ORPHAN ----------------
+\widowpenalty=10000
+\clubpenalty=10000
+
+%---------------- DOCUMENT ----------------
+\begin{document}
+\pagestyle{empty}
+
+%==================== HEADER ====================
+\begin{tabularx}{\linewidth}{@{} C @{}}
+{\Large\textbf{Atharva Girish Naik}} \\[2pt]
+\href{mailto:atharvan.coder@gmail.com}{atharvan.coder@gmail.com} $|$ +91 9226781673 \\[1pt]
+\href{https://github.com/Atharva0506}{github.com/Atharva0506} $|$
+\href{https://linkedin.com/in/Atharva0506}{linkedin.com/in/Atharva0506} $|$
+\href{https://atharvanaik.me/}{atharvanaik.me}
+\end{tabularx}
+\vspace{-6pt}
+
+%==================== SUMMARY ====================
+\needspace{3\baselineskip}
+\section{Summary}
+Backend and AI Engineer with \textbf{2+ years of professional experience} building production-grade APIs, RAG pipelines, and cloud-deployed microservices at an MNC and an AI startup. Shipped an internal AI coding assistant used daily by \textbf{300+ TCS engineers}; owned end-to-end AWS infrastructure with Jenkins CI/CD cutting deployment time by \textbf{75\%}. Selected as \textbf{Google Summer of Code 2026 contributor} at AOSSIE building decentralized invoicing and DeFi payment infrastructure. Holds \textbf{Microsoft AZ-400 (Azure DevOps Engineer Expert)} certification. \textbf{MCA (Savitribai Phule Pune University) --- graduating July 2026, available to join immediately.}
+
+%==================== SKILLS ====================
+\needspace{6\baselineskip}
+\section{Technical Skills}
+
+\textbf{Languages:} Python, TypeScript, JavaScript, Go, SQL, Solidity, Bash/Shell
+
+\textbf{Backend \& APIs:} FastAPI, Node.js, Express, Flask, REST APIs, Microservices, WebSockets, Celery, SQLAlchemy, Event-driven Architecture, Nginx, Gunicorn
+
+\textbf{AI / ML:} LangChain, LangGraph, RAG Pipelines, ChromaDB, Multi-agent Systems, HuggingFace, PyTorch, Scikit-learn
+
+\textbf{Cloud \& DevOps:} AWS (EC2, ECS, S3, Lambda, CloudWatch, IAM, SNS, VPC, RDS, Auto Scaling), Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, Linux, CI/CD, GitOps, Zero-downtime Deployments
+
+\textbf{Databases \& Caching:} PostgreSQL, MySQL, MongoDB, Redis, Connection Pooling
+
+\textbf{Web3 \& Blockchain:} Solidity, Hardhat, Foundry, Ethers.js, ERC-20, ECIES Encryption, Smart Contracts, OpenZeppelin, Multi-chain (Ethereum, Polygon, Sepolia)
+
+%==================== EXPERIENCE ====================
+\needspace{6\baselineskip}
+\section{Experience}
+
+\needspace{4\baselineskip}
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Google Summer of Code 2026 Contributor $|$ AOSSIE / StabilityNexus} &
+\textbf{May 2026 -- Present}
+\end{tabularx}
+{\small\textit{Remote --- Project: Chainvoice $\times$ StablePay (Large, 22 weeks)}}
+
+\begin{itemize}
+\item Selected for a large-scope GSoC 2026 project to deliver decentralized \textbf{B2B invoicing and DeFi payment infrastructure}; standardizing \textbf{CI/CD pipelines across 5 open-source repositories} using GitHub Actions --- lint, test, build, and deploy workflows with branch protection, automated PR checks, and release tagging
+\item Designing \textbf{DjedVariantRouter} in Solidity --- a config-driven payment abstraction supporting multiple Djed stablecoin variants without per-variant rewrites; enforcing DevSecOps practices including dependency scanning and smart contract static analysis (Slither)
+\item Replacing a broken Lit Protocol dependency with a custom \textbf{ECIES on-chain key registry}: wallet-signature-derived public keys, dual-envelope encrypted invoice payloads --- restoring production functionality for all users
+\item Building \textbf{Chainvoice $\leftrightarrow$ StablePay} event-driven bridge: on-chain \texttt{PaymentSettled} events trigger automatic invoice state transitions, eliminating manual merchant reconciliation
+\end{itemize}
+
+\needspace{4\baselineskip}
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Backend \& AI Engineer $|$ Tata Consultancy Services} &
+\textbf{May 2025 -- Nov 2025}
+\end{tabularx}
+{\small\textit{Pune, India --- Internal AI Platform (300+ Engineers)}}
+
+\begin{itemize}
+\item \textbf{Sole owner of backend and AWS infrastructure} for an internal AI coding assistant used daily by 300+ engineers --- designed full cloud architecture: VPC, EC2 (auto scaling), ECS (containerized microservices), S3, Lambda, IAM least-privilege policies
+\item Designed and maintained end-to-end \textbf{RAG pipeline}: document chunking, embedding, ChromaDB vector indexing, multi-model LLM support with automatic fallback, and SSE streaming for real-time response rendering
+\item Built \textbf{Jenkins CI/CD pipeline} covering Docker image builds, ECR push, ECS task updates, and \textbf{zero-downtime rolling deployments} --- cut release cycle from $\sim$2 hours to under 30 minutes (75\% reduction)
+\item Implemented \textbf{CloudWatch dashboards, custom metric alarms, and SNS notifications} maintaining 99.9\%+ availability; wrote Python + Bash automation scripts eliminating 80\% of manual ops toil
+\item Optimized PostgreSQL with connection pooling and query tuning; \textbf{Redis caching} for high-frequency reads; Celery for async background task processing
+\end{itemize}
+
+\needspace{4\baselineskip}
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Backend Engineer $|$ Perfect Engineering \textit{(Industrial AI \& Manufacturing Tech)}} &
+\textbf{Dec 2023 -- May 2025}
+\end{tabularx}
+
+\begin{itemize}
+\item Engineered \textbf{inventory management, invoicing, and payment-tracking REST APIs} (FastAPI, Node.js, PostgreSQL, MySQL, SQLAlchemy) serving real merchant and supplier workflows; deployed with Nginx and Gunicorn
+\item Built AI-powered \textbf{visual quality inspection system} (OpenCV, Python) automating defect detection on manufactured goods; ML-based demand forecasting (Scikit-learn, PyTorch) improving inventory planning accuracy
+\item Containerized all services with \textbf{Docker}; built \textbf{GitHub Actions CI/CD pipelines} reducing release cycle by $\sim$40\%; provisioned and managed AWS EC2 instances with cost optimization (right-sizing, spot instances) and \textbf{Redis caching} lowering read latency by 40\%
+\end{itemize}
+
+%==================== PROJECTS ====================
+\needspace{6\baselineskip}
+\section{Projects}
+
+\needspace{4\baselineskip}
+\textbf{Chainvoice --- GSoC 2026 / Open Source $|$ StabilityNexus} \hfill
+\href{https://github.com/StabilityNexus/Chainvoice}{github.com/StabilityNexus/Chainvoice} {\small(5 \faStar\ 37 forks)}
+\begin{itemize}
+\item \textbf{16+ merged PRs} across 5 repos including critical financial bug fix (PR \#149), invoice CSV/JSON export (PR \#138), and GitHub Actions workflow standardization across all repositories
+\item Diagnosed production outage caused by Lit Protocol deprecation (Datil V0 shutdown) --- root-cause analysis, full architecture migration proposal; selected for GSoC 2026 to lead the fix end-to-end
+\end{itemize}
+
+\needspace{4\baselineskip}
+\textbf{AI News Aggregator (NewsAI)} \hfill
+\href{https://newsai.atharvanaik.me/}{newsai.atharvanaik.me} $|$
+\href{https://github.com/Atharva0506/news-app}{github.com/Atharva0506/news-app}
+\begin{itemize}
+\item FastAPI + PostgreSQL + Redis backend handling \textbf{5,000+ daily requests}; \textbf{Docker Compose} for local dev parity; \textbf{GitHub Actions CI/CD} with automated test gates, Docker image builds, and zero-downtime deployment
+\item Multi-agent LangGraph pipeline (Collector $\to$ Classifier $\to$ Summarizer $\to$ Bias Analyzer) with SSE streaming, Gemini $\to$ Groq LLM fallback, and Solana on-chain payment gateway for premium subscriptions
+\end{itemize}
+
+\needspace{4\baselineskip}
+\textbf{Smart VS Code Assistant \textit{(Built at TCS --- Internal Tooling)}}
+\begin{itemize}
+\item RAG-based backend (LangChain, ChromaDB, FastAPI) for intelligent code analysis and bug detection; \textbf{adopted as shared internal infrastructure} across multiple TCS AI tooling teams with independent Docker deployments and a shared internal registry
+\end{itemize}
+
+%==================== EDUCATION ====================
+\needspace{5\baselineskip}
+\section{Education}
+
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{Savitribai Phule Pune University} & \textbf{Sep 2024 -- Jul 2026} \\
+Master of Computer Applications (MCA) --- \textit{Final Semester $|$ Graduating July 2026 $|$ Available to Join Immediately}
+\end{tabularx}
+
+\vspace{4pt}
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+\textbf{MMCC Pune} & \textbf{2021 -- 2024} \\
+Bachelor of Computer Applications (BCA) --- CGPA: \textbf{9.49 / 10}
+\end{tabularx}
+
+%==================== CERTIFICATIONS ====================
+\needspace{4\baselineskip}
+\section{Certifications}
+
+\begin{itemize}
+\item \textbf{Microsoft Azure DevOps Engineer Expert (AZ-400)} --- Infrastructure as Code, release pipelines, compliance monitoring
+\item MongoDB Associate Developer
+\item Web3 + DevOps + Web Development Cohort --- \textit{100xDevs}
+\item Complete Machine Learning \& Data Science Bootcamp
+\end{itemize}
+
+%==================== ACHIEVEMENTS ====================
+\needspace{4\baselineskip}
+\section{Achievements}
+
+\begin{itemize}
+\item \textbf{Google Summer of Code 2026} --- Selected contributor at AOSSIE / StabilityNexus (Large Project, 22 weeks)
+\item Winner --- Tech Setu Hackathon 2023
+\item Silver Medalist --- C Debugging Competition
+\item 2nd Rank --- Web Designing Competition
+\item Represented at Avishkar Zonal Level Research Project Competition
+\end{itemize}
+
+\end{document}
