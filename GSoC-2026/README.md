@@ -24,6 +24,7 @@
 | **Contributor** | Atharva Girish Naik · [@Atharva0506](https://github.com/Atharva0506) |
 | **Organization** | [AOSSIE](https://aossie.org) · [Stability Nexus](https://stability.nexus) |
 | **Mentors** | Bruno Woltzenlogel Paleo ([@Zahnentferner](https://github.com/Zahnentferner)) · Yogesh Agrawal ([@yogesh0509](https://github.com/yogesh0509)) · Karan Kumar Kumawat ([@kumawatkaran523](https://github.com/kumawatkaran523)) · Aditya Bhattad ([@adityabhattad2021](https://github.com/adityabhattad2021)) · Aditya Gupta |
+| **Repositories** | [StabilityNexus/Chainvoice](https://github.com/StabilityNexus/Chainvoice) · [AOSSIE-Org/ThruBox-Server](https://github.com/AOSSIE-Org/ThruBox-Server) · [AOSSIE-Org/ThruBox-Client](https://github.com/AOSSIE-Org/ThruBox-Client) · [AOSSIE-Org/IndexedDB-Import-Export](https://github.com/AOSSIE-Org/IndexedDB-Import-Export) |
 | **Project size** | Large (350 hours, 22 weeks) · May 26 – Nov 2, 2026 |
 | **Project page** | [chainvoice.stability.nexus](https://chainvoice.stability.nexus) |
 | **Demo video** | [▶️ Watch the demo](https://drive.google.com/file/d/122KQXxjb4ltC-8FrBgoR3bErSzOM7dU9/view?usp=sharing) |
