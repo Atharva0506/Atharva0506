@@ -47,7 +47,7 @@ Chainvoice's privacy layer was broken: Lit Protocol was defunct, so invoice crea
 
 Invoice details are now encrypted in the browser with **ECIES (secp256k1 + AES-256-GCM)**. Only a 32-byte hash goes on-chain, and recipients check every invoice against that hash. When Waku's rate limiting blocked invoice delivery, I built **ThruBox**, a self-hostable encrypted mailbox relay with a Go server and a TypeScript SDK. I also built **idb-backup**, a reusable IndexedDB backup library that Chainvoice uses for local storage.
 
-All four projects are released. The two libraries are published on npm and the relay's Docker image is on GHCR.
+All four projects are released. Chainvoice v2 is live on Base and Polygon mainnet, the two libraries are published on npm, and the relay's Docker image is on GHCR.
 
 ## Deliverables
 
@@ -119,7 +119,7 @@ All four projects are released. The two libraries are published on npm and the r
 | **7** | Since the rate limiting couldn't be fixed in time, we pivoted to a custom relay and designed **ThruBox**: one Go binary with embedded SQLite, no broker and no P2P network. |
 | **8–12** | Built the ThruBox server and SDK, published them to npm and GHCR, and wired ThruBox into Chainvoice. Before the midterm, added repository docs across all four repos. |
 | **13–17** | Product work: share and import invoices by link or QR code, sender-details onboarding, a new dashboard layout, one-command Docker setup, and a Terms of Use modal. |
-| **18–22** | Security review and launch: contract hardening, a QA audit, fixes for all five launch blockers, WalletLink, testnet deployments, and the v1.0.0 / v1.1.0 / v2.0.0 releases. |
+| **18–22** | Security review and launch: contract hardening, a QA audit, fixes for all five launch blockers, WalletLink, mainnet deployment on Base and Polygon, and the v1.0.0 / v1.1.0 / v2.0.0 releases. |
 
 ## Work done
 
@@ -169,6 +169,7 @@ All four projects are released. The two libraries are published on npm and the r
 | [#218](https://github.com/StabilityNexus/Chainvoice/pull/218) | One-command Docker setup for the frontend and a ThruBox relay |
 | [#250](https://github.com/StabilityNexus/Chainvoice/pull/250)–[#255](https://github.com/StabilityNexus/Chainvoice/pull/255) | SEO, social cards and lazy loading, which cut the JS bundle by 38% |
 | [#315](https://github.com/StabilityNexus/Chainvoice/pull/315) | A working Ethereum Classic network config and Mordor/Amoy testnets |
+| [#342](https://github.com/StabilityNexus/Chainvoice/pull/342) | Mainnet deployment on Base and Polygon, and v2 testnet deployments, all verified on Sourcify |
 
 ### 2. ThruBox-Server v1.0.0
 
@@ -208,12 +209,15 @@ A small, self-hostable relay that works as a dumb encrypted mailbox. It stores a
 
 ## Deployments
 
-| Network | Chain ID | `Chainvoice.sol` |
-|---|:-:|---|
-| Ethereum Classic (mainnet) | 61 | _TODO: address_ |
-| Base (mainnet) | 8453 | _TODO: address_ |
-| Ethereum Sepolia | 11155111 | [`0xff10Cda5…136363a`](https://sepolia.etherscan.io/address/0xff10Cda545E10656C2DcBEAB6C9eC375E136363a) |
-| Ethereum Classic Mordor | 63 | [`0xeF6669DD…C2120d2`](https://etc-mordor.blockscout.com/address/0xeF6669DDEd0078A8Cfdd758A40D194b1cC2120d2) |
+All v2 contracts are built from the same commit and verified on [Sourcify](https://sourcify.dev) with an exact match ([#342](https://github.com/StabilityNexus/Chainvoice/pull/342)).
+
+| Network | Chain ID | Type | `Chainvoice.sol` |
+|---|:-:|:-:|---|
+| Base | 8453 | Mainnet | [`0x9b31091AA0b4F287114B2A9a3D239Db04a9A07E1`](https://basescan.org/address/0x9b31091AA0b4F287114B2A9a3D239Db04a9A07E1) |
+| Polygon | 137 | Mainnet | [`0x9b31091AA0b4F287114B2A9a3D239Db04a9A07E1`](https://polygonscan.com/address/0x9b31091AA0b4F287114B2A9a3D239Db04a9A07E1) |
+| Ethereum Sepolia | 11155111 | Testnet | [`0x6E5Ac5C2c10b4eD34909CFf0DF776832504E9677`](https://sepolia.etherscan.io/address/0x6E5Ac5C2c10b4eD34909CFf0DF776832504E9677) |
+| Ethereum Classic Mordor | 63 | Testnet | [`0x9b306924Eef2f021E1BC8a54202E90057E3988d8`](https://etc-mordor.blockscout.com/address/0x9b306924Eef2f021E1BC8a54202E90057E3988d8) |
+| Polygon Amoy | 80002 | Testnet | [`0xBee456a4eF315273E9b6bC1C9eE0737aefD461e0`](https://amoy.polygonscan.com/address/0xBee456a4eF315273E9b6bC1C9eE0737aefD461e0) |
 
 ## Challenges and lessons
 
@@ -230,4 +234,4 @@ A small, self-hostable relay that works as a dumb encrypted mailbox. It stores a
 
 ## Acknowledgements
 
-Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yogesh0509](https://github.com/yogesh0509), [@kumawatkaran523](https://github.com/kumawatkaran523), [@adityabhattad2021](https://github.com/adityabhattad2021) and Aditya Gupta (@AdityaGupta256) for their reviews, guidance and patience, especially during the Waku → ThruBox pivot. Thanks also to the AOSSIE and Stability Nexus community, and to every contributor whose PRs went into Chainvoice v2.0.0.
+Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yogesh0509](https://github.com/yogesh0509), [@kumawatkaran523](https://github.com/kumawatkaran523), [@adityabhattad2021](https://github.com/adityabhattad2021) and Aditya Gupta (@AdityaGupta256) for their reviews, guidance and patience, especially during the Waku → ThruBox pivot and the mainnet deployment. Thanks also to the AOSSIE and Stability Nexus community, and to every contributor whose PRs went into Chainvoice v2.0.0.
