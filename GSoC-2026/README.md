@@ -234,4 +234,4 @@ All v2 contracts are built from the same commit and verified on [Sourcify](https
 
 ## Acknowledgements
 
-Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yogesh0509](https://github.com/yogesh0509), [@kumawatkaran523](https://github.com/kumawatkaran523), [@adityabhattad2021](https://github.com/adityabhattad2021) and Aditya Gupta (@AdityaGupta256) for their reviews, guidance and patience, especially during the Waku → ThruBox pivot and the mainnet deployment. Thanks also to the AOSSIE and Stability Nexus community, and to every contributor whose PRs went into Chainvoice v2.0.0.
+Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yogesh0509](https://github.com/yogesh0509), [@kumawatkaran523](https://github.com/kumawatkaran523), [@adityabhattad2021](https://github.com/adityabhattad2021) and Aditya Gupta (@AdityaGupta256) for their reviews, guidance and patience, especially during the Waku → ThruBox pivot and the mainnet deployment. Thanks also to the [AOSSIE](https://aossie.org) and [Stability Nexus](https://stability.nexus) community, and to every contributor whose PRs went into Chainvoice v2.0.0.
