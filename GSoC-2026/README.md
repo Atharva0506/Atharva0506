@@ -40,6 +40,7 @@
 7. [Challenges and lessons](#challenges-and-lessons)
 8. [Future work](#future-work)
 9. [Acknowledgements](#acknowledgements)
+10. [All pull requests](#all-pull-requests)
 
 ## Abstract
 
@@ -64,7 +65,7 @@ All four projects are released. Chainvoice v2 is live on Base and Polygon mainne
 
 | | Chainvoice | ThruBox-Server | ThruBox-Client | IndexedDB-Import-Export | **Total** |
 |---|:-:|:-:|:-:|:-:|:-:|
-| **Merged PRs** | 63 | 23 | 23 | 22 | **131** |
+| **Merged PRs** | 64 | 24 | 24 | 23 | **135** |
 | **PRs reviewed** | 32 | 18 | 8 | 9 | **67** |
 
 - I also reviewed **19** PRs in WalletLink, StablePay and Fate.
@@ -203,6 +204,7 @@ A small, self-hostable relay that works as a dumb encrypted mailbox. It stores a
 
 ### 5. Across the organization
 
+- Published audit reports in every repo's `audit/` folder: the peer audit and the AI security review, each with a remediation report ([Chainvoice #343](https://github.com/StabilityNexus/Chainvoice/pull/343), [ThruBox-Server #75](https://github.com/AOSSIE-Org/ThruBox-Server/pull/75), [ThruBox-Client #72](https://github.com/AOSSIE-Org/ThruBox-Client/pull/72), [IndexedDB #116](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/116)).
 - Rolled out security-review and remediation tooling to all four repos ([Chainvoice #221](https://github.com/StabilityNexus/Chainvoice/pull/221), [ThruBox-Server #49](https://github.com/AOSSIE-Org/ThruBox-Server/pull/49), [ThruBox-Client #44](https://github.com/AOSSIE-Org/ThruBox-Client/pull/44), [IndexedDB #94](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/94)).
 - Set up npm publishing CI for [WalletLink](https://github.com/StabilityNexus/WalletLink/pull/8) and [SocialShareButton](https://github.com/AOSSIE-Org/SocialShareButton/pull/156).
 - Added repository guidelines, `AGENTS.md` and maintainer docs to all four repos.
@@ -234,4 +236,232 @@ All v2 contracts are built from the same commit and verified on [Sourcify](https
 
 ## Acknowledgements
 
-Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yogesh0509](https://github.com/yogesh0509), [@kumawatkaran523](https://github.com/kumawatkaran523), [@adityabhattad2021](https://github.com/adityabhattad2021) and Aditya Gupta (@AdityaGupta256) for their reviews, guidance and patience, especially during the Waku → ThruBox pivot and the mainnet deployment. Thanks also to the [AOSSIE](https://aossie.org) and [Stability Nexus](https://stability.nexus) community, and to every contributor whose PRs went into Chainvoice v2.0.0.
+Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yogesh0509](https://github.com/yogesh0509), [@kumawatkaran523](https://github.com/kumawatkaran523), [@adityabhattad2021](https://github.com/adityabhattad2021) and Aditya Gupta (@AdityaGupta256) for their reviews, guidance and patience, especially during the Waku → ThruBox pivot and the mainnet deployment. Thanks also to the AOSSIE and Stability Nexus community, and to every contributor whose PRs went into Chainvoice v2.0.0.
+
+## All pull requests
+
+152 PRs across 9 repositories (141 merged, 5 open, 6 closed) as of Oct 29, 2026.
+
+<details>
+<summary><b>StabilityNexus/Chainvoice</b>: 72 PRs, 64 merged, 2 open, 6 closed</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#164](https://github.com/StabilityNexus/Chainvoice/pull/164) | Test/pr preview 3 | Closed | 2026-06-10 |
+| [#165](https://github.com/StabilityNexus/Chainvoice/pull/165) | perf: reduce frontend build size | Merged | 2026-06-10 |
+| [#166](https://github.com/StabilityNexus/Chainvoice/pull/166) | ci: add PR previews, update guidelines, fix router basename | Merged | 2026-06-10 |
+| [#167](https://github.com/StabilityNexus/Chainvoice/pull/167) | feat: replace Lit Protocol with Waku for invoice privacy | Closed | 2026-06-14 |
+| [#169](https://github.com/StabilityNexus/Chainvoice/pull/169) | feat(contract): add Waku public key registry and invoiceDataHash vali… | Merged | 2026-06-22 |
+| [#171](https://github.com/StabilityNexus/Chainvoice/pull/171) | chore: remove Lit Protocol and all associated logic | Merged | 2026-06-24 |
+| [#175](https://github.com/StabilityNexus/Chainvoice/pull/175) | Fix: Update ChainvoiceABI.js to include batch invoice functions | Merged | 2026-06-26 |
+| [#176](https://github.com/StabilityNexus/Chainvoice/pull/176) | fix(rpc): override mainnet RPC to resolve CORS errors on eth.merkle.io | Merged | 2026-06-27 |
+| [#178](https://github.com/StabilityNexus/Chainvoice/pull/178) | fix: comprehensive invoice validation and UI enhancements | Merged | 2026-07-01 |
+| [#179](https://github.com/StabilityNexus/Chainvoice/pull/179) | Tests for invoice validation | Merged | 2026-07-02 |
+| [#180](https://github.com/StabilityNexus/Chainvoice/pull/180) | ci: add frontend test and build workflow with label reporting | Merged | 2026-07-02 |
+| [#183](https://github.com/StabilityNexus/Chainvoice/pull/183) | feat: move product catalog to new settings page | Merged | 2026-07-04 |
+| [#185](https://github.com/StabilityNexus/Chainvoice/pull/185) | Feat/indexeddb storage | Merged | 2026-07-10 |
+| [#186](https://github.com/StabilityNexus/Chainvoice/pull/186) | Unblock `test-and-build` by making lint non-gating | Merged | 2026-07-10 |
+| [#190](https://github.com/StabilityNexus/Chainvoice/pull/190) | fix: resolve all lint errors | Merged | 2026-07-24 |
+| [#191](https://github.com/StabilityNexus/Chainvoice/pull/191) | fix(ci): handle Resource not accessible by integration error in PR co… | Closed | 2026-07-25 |
+| [#193](https://github.com/StabilityNexus/Chainvoice/pull/193) | chore: sync ChainvoiceABI with deployed hash-based contract | Merged | 2026-08-08 |
+| [#194](https://github.com/StabilityNexus/Chainvoice/pull/194) | feat: add ThruBox relay service layer for encrypted invoice delivery | Closed | 2026-08-08 |
+| [#195](https://github.com/StabilityNexus/Chainvoice/pull/195) | feat: deliver invoice payloads over the relay instead of on-chain | Merged | 2026-08-08 |
+| [#196](https://github.com/StabilityNexus/Chainvoice/pull/196) | refactor: drop Waku from the key registry naming | Merged | 2026-08-08 |
+| [#197](https://github.com/StabilityNexus/Chainvoice/pull/197) | feat: make key registration a step in the invoice flow | Merged | 2026-08-08 |
+| [#198](https://github.com/StabilityNexus/Chainvoice/pull/198) | docs: add repository guidelines and documentation | Merged | 2026-08-10 |
+| [#199](https://github.com/StabilityNexus/Chainvoice/pull/199) | Fix `test-and-build` workflow failure from insufficient GitHub token permissions | Merged | 2026-08-18 |
+| [#200](https://github.com/StabilityNexus/Chainvoice/pull/200) | fix: report PR test/build results from a workflow_run job | Merged | 2026-08-18 |
+| [#204](https://github.com/StabilityNexus/Chainvoice/pull/204) | feat: move sender details to Settings with first-run onboarding | Merged | 2026-08-26 |
+| [#205](https://github.com/StabilityNexus/Chainvoice/pull/205) | feat: compact dashboard layout with a collapsible sidebar and hamburger | Merged | 2026-08-26 |
+| [#208](https://github.com/StabilityNexus/Chainvoice/pull/208) | chore: remove deprecated contributor onboarding workflow | Merged | 2026-09-01 |
+| [#209](https://github.com/StabilityNexus/Chainvoice/pull/209) | feat: share an invoice by link or QR code, and import it | Merged | 2026-09-03 |
+| [#211](https://github.com/StabilityNexus/Chainvoice/pull/211) | ci: build PR previews in the pull request's own context | Merged | 2026-09-04 |
+| [#212](https://github.com/StabilityNexus/Chainvoice/pull/212) | ci: stop hiding the preview base marker from its own artifact | Merged | 2026-09-04 |
+| [#218](https://github.com/StabilityNexus/Chainvoice/pull/218) | feat(docker): run the frontend and a ThruBox relay with one command | Merged | 2026-09-20 |
+| [#221](https://github.com/StabilityNexus/Chainvoice/pull/221) | Add security-review and security-remediation skills | Merged | 2026-09-23 |
+| [#222](https://github.com/StabilityNexus/Chainvoice/pull/222) | feat: add the daily Terms of Use modal and footer link | Merged | 2026-09-24 |
+| [#225](https://github.com/StabilityNexus/Chainvoice/pull/225) | fix: sum batch payment amounts as BigInt in the balance check | Merged | 2026-09-26 |
+| [#228](https://github.com/StabilityNexus/Chainvoice/pull/228) | feat(contract): harden token payments and prepare the redeploy build | Merged | 2026-10-02 |
+| [#229](https://github.com/StabilityNexus/Chainvoice/pull/229) | ci(contracts): build and test contracts on every contract change | Merged | 2026-10-02 |
+| [#231](https://github.com/StabilityNexus/Chainvoice/pull/231) | fix(invoices): restore the frontend build broken by the #216 merge | Merged | 2026-10-03 |
+| [#232](https://github.com/StabilityNexus/Chainvoice/pull/232) | Remove unused `_isERC20` helper and keep strict token validation path | Closed | 2026-10-03 |
+| [#238](https://github.com/StabilityNexus/Chainvoice/pull/238) | fix(relay): bind key-derivation message to origin and address | Merged | 2026-10-06 |
+| [#239](https://github.com/StabilityNexus/Chainvoice/pull/239) | fix(ui): replace DOM-mutating image fallbacks with ImageWithFallback | Merged | 2026-10-06 |
+| [#240](https://github.com/StabilityNexus/Chainvoice/pull/240) | fix(invoices): store and show issue/due dates as calendar days | Closed | 2026-10-06 |
+| [#241](https://github.com/StabilityNexus/Chainvoice/pull/241) | refactor(filters): use theme tokens in the invoice filter bar | Merged | 2026-10-06 |
+| [#242](https://github.com/StabilityNexus/Chainvoice/pull/242) | ci(contracts): run Slither static analysis | Merged | 2026-10-06 |
+| [#245](https://github.com/StabilityNexus/Chainvoice/pull/245) | test(contracts): cover reentrancy guards and triage the Slither finding | Merged | 2026-10-07 |
+| [#246](https://github.com/StabilityNexus/Chainvoice/pull/246) | fix(abi): regenerate the Chainvoice ABI from the merged contract | Merged | 2026-10-07 |
+| [#247](https://github.com/StabilityNexus/Chainvoice/pull/247) | fix(invoices): show and pay invoices from on-chain values | Merged | 2026-10-07 |
+| [#248](https://github.com/StabilityNexus/Chainvoice/pull/248) | fix(received): use one selection checkbox for payment and export | Merged | 2026-10-07 |
+| [#249](https://github.com/StabilityNexus/Chainvoice/pull/249) | fix(export): make PDF export work and fix separate-file exports | Merged | 2026-10-07 |
+| [#250](https://github.com/StabilityNexus/Chainvoice/pull/250) | feat(seo): add robots.txt and sitemap.xml | Merged | 2026-10-08 |
+| [#251](https://github.com/StabilityNexus/Chainvoice/pull/251) | fix(routing): deep links land on Landing; base-path-unaware asset URLs | Merged | 2026-10-09 |
+| [#252](https://github.com/StabilityNexus/Chainvoice/pull/252) | fix(chains): replace dead public RPCs and add ETC/Citrea chain names | Merged | 2026-10-09 |
+| [#253](https://github.com/StabilityNexus/Chainvoice/pull/253) | chore: fix typos, remove dead code and unused dependencies | Merged | 2026-10-09 |
+| [#254](https://github.com/StabilityNexus/Chainvoice/pull/254) | feat(seo): per-route titles, 1200x630 social card, brand favicons and JSON-LD | Merged | 2026-10-09 |
+| [#255](https://github.com/StabilityNexus/Chainvoice/pull/255) | perf: lazy-load export, share and scan libraries; fix font weights | Merged | 2026-10-09 |
+| [#272](https://github.com/StabilityNexus/Chainvoice/pull/272) | feat(wallet): replace RainbowKit/WalletConnect with WalletLink | Merged | 2026-10-13 |
+| [#284](https://github.com/StabilityNexus/Chainvoice/pull/284) | fix(batch): allow repeat clients, one batch ID, factual stat and error toasts | Merged | 2026-10-14 |
+| [#288](https://github.com/StabilityNexus/Chainvoice/pull/288) | ci: fix the build-size report, enforce lint, skip unaffected jobs, draft release notes | Merged | 2026-10-15 |
+| [#295](https://github.com/StabilityNexus/Chainvoice/pull/295) | feat(contracts)!: rename fee roles to dev, devFee and devFeeReceiver | Merged | 2026-10-17 |
+| [#297](https://github.com/StabilityNexus/Chainvoice/pull/297) | fix(batch): cap Sepolia batches at 15 invoices to fit its gas cap | Merged | 2026-10-18 |
+| [#306](https://github.com/StabilityNexus/Chainvoice/pull/306) | docs: describe Chainvoice as chain-neutral across EVM chains | Merged | 2026-10-19 |
+| [#307](https://github.com/StabilityNexus/Chainvoice/pull/307) | fix(relay): reject malformed invoice payloads and never replace a registered key silently | Merged | 2026-10-19 |
+| [#309](https://github.com/StabilityNexus/Chainvoice/pull/309) | ci(preview): move PR previews off the production origin to Cloudflare Pages | Merged | 2026-10-20 |
+| [#315](https://github.com/StabilityNexus/Chainvoice/pull/315) | fix(network): working ETC config, deployed chains only, Mordor + Amoy testnets | Merged | 2026-10-21 |
+| [#317](https://github.com/StabilityNexus/Chainvoice/pull/317) | fix(invoices): show the real chain, token and fee in drawers, export and import | Merged | 2026-10-22 |
+| [#318](https://github.com/StabilityNexus/Chainvoice/pull/318) | fix(landing): describe what Chainvoice actually does on Landing and About | Merged | 2026-10-22 |
+| [#319](https://github.com/StabilityNexus/Chainvoice/pull/319) | fix(relay): wait out the relay's rate limit instead of dropping invoices | Merged | 2026-10-22 |
+| [#320](https://github.com/StabilityNexus/Chainvoice/pull/320) | fix(payments): stop overlapping pay and cancel transactions, refetch after failures | Merged | 2026-10-22 |
+| [#328](https://github.com/StabilityNexus/Chainvoice/pull/328) | ci: add issue moderator and anti-slop PR workflows | Merged | 2026-10-24 |
+| [#332](https://github.com/StabilityNexus/Chainvoice/pull/332) | fix(contracts): emit DevFeesWithdrawn and tidy before mainnet deploy | Merged | 2026-10-25 |
+| [#335](https://github.com/StabilityNexus/Chainvoice/pull/335) | fix: peer audit fixes | Merged | 2026-10-25 |
+| [#342](https://github.com/StabilityNexus/Chainvoice/pull/342) | docs(deployments): record the v2 contracts on Base, Polygon and the testnets | Open | 2026-10-27 |
+| [#343](https://github.com/StabilityNexus/Chainvoice/pull/343) | docs(audit): add the peer audit and security review with remediation reports | Open | 2026-10-29 |
+
+</details>
+
+<details>
+<summary><b>AOSSIE-Org/ThruBox-Server</b>: 24 PRs, 24 merged</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#2](https://github.com/AOSSIE-Org/ThruBox-Server/pull/2) | fix: replace LaTeX .gitignore with Go-specific patterns | Merged | 2026-07-11 |
+| [#3](https://github.com/AOSSIE-Org/ThruBox-Server/pull/3) | chore: optimize CodeRabbit configuration for Go project | Merged | 2026-07-11 |
+| [#4](https://github.com/AOSSIE-Org/ThruBox-Server/pull/4) | Docs/update readme | Merged | 2026-07-11 |
+| [#5](https://github.com/AOSSIE-Org/ThruBox-Server/pull/5) | feat: add Go module, config system, and default config file | Merged | 2026-07-12 |
+| [#6](https://github.com/AOSSIE-Org/ThruBox-Server/pull/6) | feat: add Message model and Store interface with SQLite backend | Merged | 2026-07-12 |
+| [#7](https://github.com/AOSSIE-Org/ThruBox-Server/pull/7) | feat: add HTTP handlers and middleware | Merged | 2026-07-12 |
+| [#8](https://github.com/AOSSIE-Org/ThruBox-Server/pull/8) | feat: add server entrypoint with graceful shutdown | Merged | 2026-07-12 |
+| [#9](https://github.com/AOSSIE-Org/ThruBox-Server/pull/9) | feat: add Docker and Docker Compose support | Merged | 2026-07-12 |
+| [#10](https://github.com/AOSSIE-Org/ThruBox-Server/pull/10) | fix: update Dockerfile to Go 1.23 and add missing dependencies to go.mod | Merged | 2026-07-15 |
+| [#17](https://github.com/AOSSIE-Org/ThruBox-Server/pull/17) | chore(ci): remove unused language setup steps | Merged | 2026-07-21 |
+| [#18](https://github.com/AOSSIE-Org/ThruBox-Server/pull/18) | ci: configure docker publish to ghcr | Merged | 2026-07-22 |
+| [#20](https://github.com/AOSSIE-Org/ThruBox-Server/pull/20) | docs: add ThruBox logo to README | Merged | 2026-07-30 |
+| [#21](https://github.com/AOSSIE-Org/ThruBox-Server/pull/21) | ci: remove obsolete CodeRabbit dispatch workflow | Merged | 2026-07-30 |
+| [#24](https://github.com/AOSSIE-Org/ThruBox-Server/pull/24) | chore: fix CI issues | Merged | 2026-08-04 |
+| [#31](https://github.com/AOSSIE-Org/ThruBox-Server/pull/31) | docs: add repository guidelines and documentation | Merged | 2026-08-10 |
+| [#34](https://github.com/AOSSIE-Org/ThruBox-Server/pull/34) | fix: support the standard PORT environment variable | Merged | 2026-08-20 |
+| [#35](https://github.com/AOSSIE-Org/ThruBox-Server/pull/35) | fix: load config.yaml from a configurable path | Merged | 2026-08-20 |
+| [#36](https://github.com/AOSSIE-Org/ThruBox-Server/pull/36) | feat: add configurable CORS support for direct browser clients | Merged | 2026-08-20 |
+| [#49](https://github.com/AOSSIE-Org/ThruBox-Server/pull/49) | Add security-remediation skill and restructure security-review report format | Merged | 2026-09-23 |
+| [#56](https://github.com/AOSSIE-Org/ThruBox-Server/pull/56) | Address follow-up CodeRabbit feedback on security skills | Merged | 2026-10-01 |
+| [#57](https://github.com/AOSSIE-Org/ThruBox-Server/pull/57) | Fix YAML frontmatter parse error in security-review's description | Merged | 2026-10-01 |
+| [#67](https://github.com/AOSSIE-Org/ThruBox-Server/pull/67) | Fix rate-limit bypass, add mailbox cursor, and release 1.0.0 | Merged | 2026-10-26 |
+| [#70](https://github.com/AOSSIE-Org/ThruBox-Server/pull/70) | Remove the DELETE /api/messages/{id} endpoint | Merged | 2026-10-26 |
+| [#75](https://github.com/AOSSIE-Org/ThruBox-Server/pull/75) | docs(audit): add the security review and remediation reports | Merged | 2026-10-29 |
+
+</details>
+
+<details>
+<summary><b>AOSSIE-Org/ThruBox-Client</b>: 24 PRs, 24 merged</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#2](https://github.com/AOSSIE-Org/ThruBox-Client/pull/2) | fix: replace LaTeX .gitignore with Node.js/TypeScript patterns | Merged | 2026-07-12 |
+| [#3](https://github.com/AOSSIE-Org/ThruBox-Client/pull/3) | chore: optimize CodeRabbit config for TypeScript SDK | Merged | 2026-07-12 |
+| [#4](https://github.com/AOSSIE-Org/ThruBox-Client/pull/4) | docs: replace template README with ThruBox Client SDK documentation | Merged | 2026-07-12 |
+| [#5](https://github.com/AOSSIE-Org/ThruBox-Client/pull/5) | feat: add TypeScript SDK source and build configuration | Merged | 2026-07-13 |
+| [#6](https://github.com/AOSSIE-Org/ThruBox-Client/pull/6) | chore(ci): add npm publish job to version-release workflow | Merged | 2026-07-13 |
+| [#7](https://github.com/AOSSIE-Org/ThruBox-Client/pull/7) | chore: remove Go/binary template artifacts irrelevant to TypeScript SDK | Merged | 2026-07-13 |
+| [#8](https://github.com/AOSSIE-Org/ThruBox-Client/pull/8) | feat: add unit tests for RelayClient | Merged | 2026-07-14 |
+| [#14](https://github.com/AOSSIE-Org/ThruBox-Client/pull/14) | docs: add ThruBox logo to README | Merged | 2026-07-30 |
+| [#15](https://github.com/AOSSIE-Org/ThruBox-Client/pull/15) | ci: remove obsolete CodeRabbit dispatch workflow | Merged | 2026-07-30 |
+| [#16](https://github.com/AOSSIE-Org/ThruBox-Client/pull/16) | fix: resolve release drafter permissions and publish workflow issues | Merged | 2026-08-01 |
+| [#17](https://github.com/AOSSIE-Org/ThruBox-Client/pull/17) | chore: commit package-lock.json to fix CI | Merged | 2026-08-03 |
+| [#18](https://github.com/AOSSIE-Org/ThruBox-Client/pull/18) | chore: remove coderabbit approval workflow | Merged | 2026-08-03 |
+| [#19](https://github.com/AOSSIE-Org/ThruBox-Client/pull/19) | fix: change npm scope to @aossie-org | Merged | 2026-08-03 |
+| [#20](https://github.com/AOSSIE-Org/ThruBox-Client/pull/20) | chore: release v1.0.1 | Merged | 2026-08-03 |
+| [#21](https://github.com/AOSSIE-Org/ThruBox-Client/pull/21) | fix: add npm auth verification step before publish | Merged | 2026-08-03 |
+| [#22](https://github.com/AOSSIE-Org/ThruBox-Client/pull/22) | Fix/npm auth check | Merged | 2026-08-03 |
+| [#28](https://github.com/AOSSIE-Org/ThruBox-Client/pull/28) | ci: migrate npm publish to Trusted Publishing (OIDC) | Merged | 2026-08-05 |
+| [#30](https://github.com/AOSSIE-Org/ThruBox-Client/pull/30) | docs: fix package name in README | Merged | 2026-08-07 |
+| [#31](https://github.com/AOSSIE-Org/ThruBox-Client/pull/31) | docs: add repository guidelines and documentation | Merged | 2026-08-10 |
+| [#44](https://github.com/AOSSIE-Org/ThruBox-Client/pull/44) | Add security-review and security-remediation skills | Merged | 2026-09-23 |
+| [#63](https://github.com/AOSSIE-Org/ThruBox-Client/pull/63) | Support mailbox cursors and fix the release pipeline | Merged | 2026-10-26 |
+| [#65](https://github.com/AOSSIE-Org/ThruBox-Client/pull/65) | Remove RelayClient.delete() and release 1.1.0 | Merged | 2026-10-26 |
+| [#66](https://github.com/AOSSIE-Org/ThruBox-Client/pull/66) | Fix the npm release build so 1.1.0 can be published | Merged | 2026-10-26 |
+| [#72](https://github.com/AOSSIE-Org/ThruBox-Client/pull/72) | docs(audit): add the security review and remediation reports | Merged | 2026-10-29 |
+
+</details>
+
+<details>
+<summary><b>AOSSIE-Org/IndexedDB-Import-Export</b>: 23 PRs, 23 merged</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#6](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/6) | chore: initialize project configuration | Merged | 2026-05-29 |
+| [#7](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/7) | Chore/scaffold folder structure | Merged | 2026-05-29 |
+| [#11](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/11) | feat: implement Uint8Array serialization and core exporter | Merged | 2026-06-04 |
+| [#12](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/12) | feat: implement core importer with overwrite and merge strategies | Merged | 2026-06-04 |
+| [#13](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/13) | docs: rewrite README for aossie-idb-backup library | Merged | 2026-06-04 |
+| [#29](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/29) | test: add comprehensive exporter, importer, and round-trip tests | Merged | 2026-06-15 |
+| [#30](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/30) | chore: bump version from 0.1.0 to 1.0.0 | Merged | 2026-06-15 |
+| [#31](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/31) | Ci: npm publish workflow | Merged | 2026-06-16 |
+| [#32](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/32) | ci: add workflow_dispatch to allow manual triggering of release | Merged | 2026-06-17 |
+| [#33](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/33) | ci: fix security check by verifying repository permissions instead of… | Merged | 2026-06-17 |
+| [#34](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/34) | ci: fix git push auth and update Node.js to 22 LTS | Merged | 2026-06-18 |
+| [#46](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/46) | docs: update README with current package name and API | Merged | 2026-07-06 |
+| [#61](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/61) | ci: migrate npm publish to Trusted Publishing (OIDC) | Merged | 2026-08-05 |
+| [#62](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/62) | fix: quote mermaid node labels containing special characters | Merged | 2026-08-05 |
+| [#63](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/63) | ci: split publish into build and publish jobs | Merged | 2026-08-05 |
+| [#65](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/65) | docs: add repository guidelines and documentation | Merged | 2026-08-13 |
+| [#73](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/73) | feat: add storeNames to ImportOptions for selective restore | Merged | 2026-08-25 |
+| [#74](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/74) | docs: add PRIVACY.md adapted from the org template | Merged | 2026-08-25 |
+| [#94](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/94) | Update security-review skill, add security-remediation skill | Merged | 2026-09-23 |
+| [#96](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/96) | ci(release-drafter): resolve minor bumps from feature labels, drop PR trigger | Merged | 2026-09-29 |
+| [#97](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/97) | chore: bump version to 1.1.0 | Merged | 2026-09-29 |
+| [#98](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/98) | ci(release): create pack directory and allow resuming a failed publish | Merged | 2026-09-29 |
+| [#116](https://github.com/AOSSIE-Org/IndexedDB-Import-Export/pull/116) | docs(audit): add the security review and remediation reports | Merged | 2026-10-29 |
+
+</details>
+
+<details>
+<summary><b>AOSSIE-Org/SocialShareButton</b>: 3 PRs, 2 merged, 1 open</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#156](https://github.com/AOSSIE-Org/SocialShareButton/pull/156) | feat: setup npm publish workflow via github actions | Merged | 2026-06-23 |
+| [#176](https://github.com/AOSSIE-Org/SocialShareButton/pull/176) | fix: update pnpm/action-setup to v4 and enable dependabot | Merged | 2026-07-16 |
+| [#218](https://github.com/AOSSIE-Org/SocialShareButton/pull/218) | ci: migrate npm publish to Trusted Publishing (OIDC) | Open | 2026-08-05 |
+
+</details>
+
+<details>
+<summary><b>StabilityNexus/Tectonic-EVM-WebUI</b>: 1 PRs, 0 merged, 1 open</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#29](https://github.com/StabilityNexus/Tectonic-EVM-WebUI/pull/29) | fix: hero globe, scroll arrow and wordmark shadow from design review | Open | 2026-08-24 |
+
+</details>
+
+<details>
+<summary><b>StabilityNexus/VouchMe</b>: 1 PRs, 1 merged</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#42](https://github.com/StabilityNexus/VouchMe/pull/42) | refactor: replace require strings with custom errors for gas optimiza… | Merged | 2026-05-15 |
+
+</details>
+
+<details>
+<summary><b>StabilityNexus/WalletLink</b>: 3 PRs, 3 merged</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#8](https://github.com/StabilityNexus/WalletLink/pull/8) | Add npm publish CI workflow, VERSION file, and Dependabot config | Merged | 2026-08-31 |
+| [#13](https://github.com/StabilityNexus/WalletLink/pull/13) | Fix CI: create pack destination directory before npm pack | Merged | 2026-09-02 |
+| [#15](https://github.com/StabilityNexus/WalletLink/pull/15) | Release 0.1.1 — first end-to-end test of the automated release CI | Merged | 2026-09-21 |
+
+</details>
+
+<details>
+<summary><b>StabilityNexus/Website</b>: 1 PRs, 0 merged, 1 open</summary>
+
+| PR | Title | Status | Opened |
+|---|---|---|---|
+| [#66](https://github.com/StabilityNexus/Website/pull/66) | feat: add ThruBox application to website | Open | 2026-08-01 |
+
+</details>
