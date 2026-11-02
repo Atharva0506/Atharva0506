@@ -27,7 +27,7 @@
 | **Repositories** | [StabilityNexus/Chainvoice](https://github.com/StabilityNexus/Chainvoice) · [AOSSIE-Org/ThruBox-Server](https://github.com/AOSSIE-Org/ThruBox-Server) · [AOSSIE-Org/ThruBox-Client](https://github.com/AOSSIE-Org/ThruBox-Client) · [AOSSIE-Org/IndexedDB-Import-Export](https://github.com/AOSSIE-Org/IndexedDB-Import-Export) |
 | **Project size** | Large (350 hours, 22 weeks) · May 26 – Nov 2, 2026 |
 | **Project page** | [chainvoice.stability.nexus](https://chainvoice.stability.nexus) |
-| **Demo video** | [Watch the demo](https://drive.google.com/file/d/122KQXxjb4ltC-8FrBgoR3bErSzOM7dU9/view?usp=sharing) |
+| **Demo video** | [Watch the demo](https://youtu.be/qPf2dYDTTSM) |
 
 ## Contents
 
@@ -240,10 +240,10 @@ Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yo
 
 ## All pull requests
 
-152 PRs across 9 repositories (141 merged, 5 open, 6 closed) as of Oct 29, 2026.
+152 PRs across 9 repositories (143 merged, 3 open, 6 closed) as of Nov 2, 2026.
 
 <details>
-<summary><b>StabilityNexus/Chainvoice</b>: 72 PRs, 64 merged, 2 open, 6 closed</summary>
+<summary><b>StabilityNexus/Chainvoice</b>: 72 PRs, 66 merged, 6 closed</summary>
 
 | PR | Title | Status | Opened |
 |---|---|---|---|
@@ -317,8 +317,8 @@ Thank you to my mentors [@Zahnentferner](https://github.com/Zahnentferner), [@yo
 | [#328](https://github.com/StabilityNexus/Chainvoice/pull/328) | ci: add issue moderator and anti-slop PR workflows | Merged | 2026-10-24 |
 | [#332](https://github.com/StabilityNexus/Chainvoice/pull/332) | fix(contracts): emit DevFeesWithdrawn and tidy before mainnet deploy | Merged | 2026-10-25 |
 | [#335](https://github.com/StabilityNexus/Chainvoice/pull/335) | fix: peer audit fixes | Merged | 2026-10-25 |
-| [#342](https://github.com/StabilityNexus/Chainvoice/pull/342) | docs(deployments): record the v2 contracts on Base, Polygon and the testnets | Open | 2026-10-27 |
-| [#343](https://github.com/StabilityNexus/Chainvoice/pull/343) | docs(audit): add the peer audit and security review with remediation reports | Open | 2026-10-29 |
+| [#342](https://github.com/StabilityNexus/Chainvoice/pull/342) | docs(deployments): record the v2 contracts on Base, Polygon and the testnets | Merged | 2026-10-27 |
+| [#343](https://github.com/StabilityNexus/Chainvoice/pull/343) | docs(audit): add the peer audit and security review with remediation reports | Merged | 2026-10-29 |
 
 </details>
 
